@@ -8,7 +8,7 @@ If your project is build by Maven, you can add the library as a dependency to yo
 
 ```xml
 <dependency>
-    <groupId>it.openmindlab</groupId>
+    <groupId>com.openmindlab</groupId>
     <artifactId>magnolia-rendering-jade</artifactId>
     <version>1.0</version>
 </dependency>
