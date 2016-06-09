@@ -1,4 +1,4 @@
-package com.omlab.magnolia.rendering;
+package com.openmindlab.magnolia.rendering;
 
 import info.magnolia.i18nsystem.FixedLocaleProvider;
 import info.magnolia.i18nsystem.LocaleProvider;

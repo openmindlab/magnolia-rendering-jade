@@ -8,11 +8,6 @@
 
     <components>
         <id>main</id>
-        <!--<component>-->
-            <!--<type>com.omlab.magnolia.rendering.jade.cmsfn.JadeTemplatingFunction</type>-->
-            <!--<implementation>com.omlab.rendering.jade.cmsfn.JadeTemplatingFunction</implementation>-->
-            <!--<scope>singleton</scope>-->
-        <!--</component>-->
         <component>
             <type>de.neuland.jade4j.JadeConfiguration</type>
             <workspace>config</workspace>

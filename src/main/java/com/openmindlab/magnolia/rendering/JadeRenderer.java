@@ -1,18 +1,10 @@
-package com.omlab.magnolia.rendering;
+package com.openmindlab.magnolia.rendering;
 
 import de.neuland.jade4j.JadeConfiguration;
-import de.neuland.jade4j.expression.JsExpressionHandler;
-import de.neuland.jade4j.template.ClasspathTemplateLoader;
-import de.neuland.jade4j.template.FileTemplateLoader;
-import de.neuland.jade4j.template.JadeTemplate;
-import de.neuland.jade4j.template.TemplateLoader;
 import info.magnolia.cms.beans.config.ServerConfiguration;
-import info.magnolia.cms.core.SystemProperty;
 import info.magnolia.context.MgnlContext;
 import info.magnolia.context.WebContext;
 import info.magnolia.i18nsystem.TranslationService;
-import info.magnolia.init.MagnoliaConfigurationProperties;
-import info.magnolia.init.MagnoliaServletContextListener;
 import info.magnolia.objectfactory.Components;
 import info.magnolia.rendering.context.RenderingContext;
 import info.magnolia.rendering.engine.RenderException;
@@ -23,15 +15,10 @@ import info.magnolia.rendering.util.AppendableWriter;
 
 import javax.inject.Inject;
 import javax.jcr.Node;
-import javax.servlet.ServletContext;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-import java.io.InputStreamReader;
 
 /**
  * Created by molaschi on 27/05/16.

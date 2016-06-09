@@ -1,4 +1,4 @@
-package com.omlab.magnolia.rendering;
+package com.openmindlab.magnolia.rendering;
 
 import de.neuland.jade4j.template.TemplateLoader;
 

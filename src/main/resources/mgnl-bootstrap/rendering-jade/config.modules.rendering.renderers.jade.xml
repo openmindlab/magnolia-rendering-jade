@@ -10,7 +10,7 @@
         <sv:value>admin</sv:value>
     </sv:property>
     <sv:property sv:name="class" sv:type="String">
-        <sv:value>com.omlab.magnolia.rendering.JadeRenderer</sv:value>
+        <sv:value>com.openmindlab.magnolia.rendering.JadeRenderer</sv:value>
     </sv:property>
     <sv:property sv:name="type" sv:type="String">
         <sv:value>freemarker</sv:value>
