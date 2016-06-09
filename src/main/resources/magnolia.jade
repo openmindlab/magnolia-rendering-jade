@@ -1,0 +1,24 @@
+mixin _cms(type)
+    - var cmsEl = cms.createElement(type);
+    if attributes
+        each val, key in attributes
+            - cmsEl[key] = val;
+    - cmsEl.begin(__out);
+    if block
+        block
+    - cmsEl.end(__out);
+
+mixin cms_area
+    +_cms('area')&attributes(attributes)
+        if block
+            block
+
+mixin cms_page
+    +_cms('page')&attributes(attributes)
+        if block
+            block
+
+mixin cms_component
+    +_cms('component')&attributes(attributes)
+        if block
+            block

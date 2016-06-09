@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+    <name>rendering-jade</name>
+    <displayName>Magnolia Jade Rendering Module</displayName>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+
+    <components>
+        <id>main</id>
+        <!--<component>-->
+            <!--<type>com.omlab.magnolia.rendering.jade.cmsfn.JadeTemplatingFunction</type>-->
+            <!--<implementation>com.omlab.rendering.jade.cmsfn.JadeTemplatingFunction</implementation>-->
+            <!--<scope>singleton</scope>-->
+        <!--</component>-->
+        <component>
+            <type>de.neuland.jade4j.JadeConfiguration</type>
+            <workspace>config</workspace>
+            <path>/server/rendering/jade</path>
+            <observed>true</observed>
+            <scope>singleton</scope>
+        </component>
+    </components>
+
+    <dependencies>
+        <dependency>
+            <name>rendering</name>
+            <version>5.4/*</version>
+        </dependency>
+    </dependencies>
+</module>
