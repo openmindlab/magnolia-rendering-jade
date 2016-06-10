@@ -4,7 +4,7 @@
   <groupId>com.openmindlab</groupId>
   <artifactId>magnolia-rendering-jade</artifactId>
   <name>Magnolia Rendering for Jade</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-rc1</version>
   <inceptionYear>2016</inceptionYear>
   <description>Jade renderer for Magnolia CMS</description>
   <url>https://github.com/openmindlab/magnolia-rendering-jade</url>
@@ -30,7 +30,7 @@
     <connection>scm:git:git://git@github.com/openmindlab/magnolia-rendering-jade.git</connection>
     <developerConnection>scm:git:git@github.com:openmindlab/magnolia-rendering-jade.git</developerConnection>
     <url>https://github.com/openmindlab/magnolia-rendering-jade</url>
-    <tag>HEAD</tag>
+    <tag>1.0-rc1</tag>
   </scm>
 
 
