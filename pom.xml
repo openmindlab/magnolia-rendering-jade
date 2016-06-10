@@ -74,6 +74,8 @@
           <branchName>${project.version}</branchName>
           <tagNameFormat>@{project.version}</tagNameFormat>
           <goals>deploy nexus-staging:release</goals>
+          <useReleaseProfile>false</useReleaseProfile>
+          <releaseProfiles>release</releaseProfiles>
         </configuration>
       </plugin>
       <plugin>
