@@ -75,7 +75,7 @@
           <tagNameFormat>@{project.version}</tagNameFormat>
           <goals>deploy nexus-staging:release</goals>
           <useReleaseProfile>false</useReleaseProfile>
-          <releaseProfiles>release</releaseProfiles>
+          <releaseProfiles>deploy</releaseProfiles>
         </configuration>
       </plugin>
       <plugin>
