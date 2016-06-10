@@ -26,13 +26,14 @@ If your project is managed by Maven, just add the following dependency to your `
 <dependency>
     <groupId>com.openmindlab</groupId>
     <artifactId>magnolia-rendering-jade</artifactId>
-    <version>1.0</version>
+    <version>1.0-rc1</version>
 </dependency>
 ```
 
 ### Manually
 
-Download latest release here:
+Download latest release here: 
+https://oss.sonatype.org/service/local/artifact/maven/redirect?r=releases&g=com.openmindlab&a=magnolia-rendering-jade&v=LATEST
 
 
 ## Usage
